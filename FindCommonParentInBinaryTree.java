@@ -62,6 +62,9 @@ public class FindCommonParentInBinaryTree {
 		}
 		return getCommonParentRecursively(tree, nodes);	
 	}
+	
+	//another method, record the path of the two nodes by stacks, backspace the deeper node to the same level as the other node, backspace together until meet each other.
+	
 	public static void main(String[] args)
 	{
 		TreeNode tree = new TreeNode(0);
